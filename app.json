@@ -1,7 +1,7 @@
 {
   "name": "ohmyform",
   "description": "Opensource alternative to TypeForm",
-  "repository": "https://github.com/ohmyform/ohmyform",
+  "repository": "https://github.com/BrightSoftwares/ohmyform",
   "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/logo.png",
   "keywords": [
     "form",
@@ -10,7 +10,7 @@
   "env": {
     "BASE_URL": {
       "description": "Domain name where the site will be hosted",
-      "value": "ohmyform.herokuapp.com"
+      "value": "brightohmyform.herokuapp.com"
     },
     "MAILER_URI": {
       "description": "Set this to a uri like smtp://localhost:1025 - for more information check https://nodemailer.com/",
@@ -18,7 +18,7 @@
     },
     "MAILER_FROM": {
       "description": "Email address from which signup/verifications are sent",
-      "value": "OhMyForm <no-reply@localhost>"
+      "value": "OhMyForm <fullbright@localhost>"
     },
     "CREATE_ADMIN": {
       "description": "Use this to automatically create an admin user on startup",
@@ -30,7 +30,7 @@
     },
     "ADMIN_USERNAME": {
       "description": "Username of your default admin account",
-      "value": "admin"
+      "value": "fullbright"
     },
     "ADMIN_PASSWORD": {
       "description": "Password for your default admin account",
@@ -50,7 +50,6 @@
     }
   },
   "addons": [
-    "mongolab",
     "heroku-redis",
     "mailtrap"
   ],
